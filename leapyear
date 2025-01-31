@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int x;
+    printf("enter the year you want to check\n");
+    scanf("%d\n",&x);
+    if(x%400==0)
+    {
+        printf("leap year %d \n",x);
+    }
+    else if(x%4==0)
+    {
+        printf("leap year %d \n",x);
+    }
+    else
+    {
+        printf("entered year is not a leap year which is %d \n",x);
+        
+        
+    }
+
+    return 0;
+}
